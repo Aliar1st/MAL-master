@@ -10,5 +10,4 @@ struct MALArguments
 {
 	MavlinkAbstractionArguments mavlinkAbstractionArguments;
 	VehicleArguments vehicleArguments;
-    TUCArguments tucArguments;
 };
