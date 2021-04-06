@@ -1,0 +1,2085 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{6f61d780-7853-436a-b4f9-8f3bb017e3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\IPC">
+      <UniqueIdentifier>{fdbd26b8-42ea-4537-afb1-7bd53b61cfaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Threading">
+      <UniqueIdentifier>{d8bd755c-aee5-48ee-8979-056598e3a756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Utilities">
+      <UniqueIdentifier>{d1af32bc-9234-4944-9245-6e2c09e5d08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Arguments">
+      <UniqueIdentifier>{39eb7b9d-187f-411c-b5c6-cd14aca6909e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MavlinkAbstraction">
+      <UniqueIdentifier>{fdd5fb53-a949-497c-8460-dc88cbf06565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MavlinkAbstraction\Logger">
+      <UniqueIdentifier>{8cccaf1f-fedc-4bfb-aa35-74a9846d68ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MavlinkAbstraction\MAVLinkConnection">
+      <UniqueIdentifier>{81345294-6cef-480d-8d92-16e1f636e45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MavlinkAbstraction\MAVLinkConnection\Threads">
+      <UniqueIdentifier>{5bd48762-b50b-40de-85f6-3328b6dfaa53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MavlinkAbstraction\C2Handler">
+      <UniqueIdentifier>{0e3360c2-04d1-422c-9130-d02218eeda4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MavlinkAbstraction\Requests">
+      <UniqueIdentifier>{23050513-e6fa-4208-a539-95dc7cd3163f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MavlinkAbstraction\Responses">
+      <UniqueIdentifier>{dcbb3157-3c2a-4e1c-ab5b-6fb05f3bfa85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vehicles">
+      <UniqueIdentifier>{acab7292-2a60-490a-8e4f-7698f0db1985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vehicles\TestVehicle">
+      <UniqueIdentifier>{ff042504-6265-4a13-af18-a070b81314e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vehicles\TestVehicle\Commands">
+      <UniqueIdentifier>{04215868-551c-41bb-9fb3-430eee1ed199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vehicles\EXSVehicle">
+      <UniqueIdentifier>{f29ef48d-2113-4b40-88a4-3c7501b56f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vehicles\Commands">
+      <UniqueIdentifier>{32889229-8f44-47fc-832a-470b18460c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vehicles\EXSVehicle\Commands">
+      <UniqueIdentifier>{e9b90036-b45e-4e98-b748-8cb24a026be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vehicles\EXSVehicle\Facts">
+      <UniqueIdentifier>{07792bca-7581-4966-bba7-fdf413a84077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vehicles\CTHVehicle">
+      <UniqueIdentifier>{ec2c0ba3-6720-4a25-8efe-87ef6d89abdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vehicles\RTLVehicle">
+      <UniqueIdentifier>{3a9ff7ec-c02f-4def-9318-339514000246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MAVLink">
+      <UniqueIdentifier>{bed9854b-ef5e-42eb-8bcd-fa069fe13ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MAVLink\ardupilotmega">
+      <UniqueIdentifier>{49a68aed-efd7-47fd-ac78-1bdfdb850868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MAVLink\ASLUAV">
+      <UniqueIdentifier>{dfd042e3-9897-4261-ab97-2ab3678d69b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MAVLink\autoquad">
+      <UniqueIdentifier>{71525a2b-0916-48c5-9188-fd66d9f4fc74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MAVLink\common">
+      <UniqueIdentifier>{e4635668-f7e6-4b01-81fd-e275e7cc3b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MAVLink\icarous">
+      <UniqueIdentifier>{a644dbe6-0eab-4a27-8869-85bf2febbc9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MAVLink\matrixpilot">
+      <UniqueIdentifier>{07ed5fc6-f859-4b88-8dfa-004aa54eae2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MAVLink\minimal">
+      <UniqueIdentifier>{1c5c025e-3bb2-4679-ba43-4137599f9d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MAVLink\slugs">
+      <UniqueIdentifier>{134d8dd3-5ecc-4d49-beb7-82af0301266d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MAVLink\standard">
+      <UniqueIdentifier>{202ae5c9-a8b5-4766-8488-603fbb65d19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MAVLink\test">
+      <UniqueIdentifier>{35367ee5-bb4a-45c0-b516-8a4df3d7101b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MAVLink\uAvionix">
+      <UniqueIdentifier>{ffe0d56a-d8d5-4b5c-926c-b7b2d0eeb78f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MavlinkAbstraction\Responses\DeviceData">
+      <UniqueIdentifier>{e54abbf3-da64-46d8-af94-a3da681e36d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Arguments\ArgumentParser.cpp">
+      <Filter>Sources\Arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Arguments\MALArgumentParser.cpp">
+      <Filter>Sources\Arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Arguments\MavlinkAbstractionArgumentParser.cpp">
+      <Filter>Sources\Arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Arguments\MavlinkAbstractionArguments.cpp">
+      <Filter>Sources\Arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Arguments\VehicleArgumentParser.cpp">
+      <Filter>Sources\Arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\Connection.cpp">
+      <Filter>Sources\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\ConnectionAsynchronousOperation.cpp">
+      <Filter>Sources\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\Semaphore.cpp">
+      <Filter>Sources\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\SerialPort.cpp">
+      <Filter>Sources\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\SerialPortAsynchronousOperation.cpp">
+      <Filter>Sources\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\Socket.cpp">
+      <Filter>Sources\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\SocketAsynchronousOperation.cpp">
+      <Filter>Sources\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\TCPSocket.cpp">
+      <Filter>Sources\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\TCPSocketAsynchronousOperation.cpp">
+      <Filter>Sources\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\UDPSocket.cpp">
+      <Filter>Sources\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\UDPSocketAsynchronousOperation.cpp">
+      <Filter>Sources\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Threading\BlockingThread.cpp">
+      <Filter>Sources\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Threading\Thread.cpp">
+      <Filter>Sources\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Threading\Timer.cpp">
+      <Filter>Sources\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Utilities\ConversionUtil.cpp">
+      <Filter>Sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Utilities\InputUtil.cpp">
+      <Filter>Sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Utilities\MathUtil.cpp">
+      <Filter>Sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Utilities\StringUtil.cpp">
+      <Filter>Sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Vehicle.cpp">
+      <Filter>Sources\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\TestVehicle.cpp">
+      <Filter>Sources\Vehicles\TestVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommand.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandArm.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandBeep.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandDisarm.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandGuided.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandLand.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandStabilize.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MAL.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MavlinkAbstraction.cpp">
+      <Filter>Sources\MavlinkAbstraction</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\C2Handler\C2Handler.cpp">
+      <Filter>Sources\MavlinkAbstraction\C2Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Logger\Logger.cpp">
+      <Filter>Sources\MavlinkAbstraction\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\MAVLinkConnectionUDP.cpp">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\MAVLinkConnection.cpp">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\MAVLinkConnectionSerial.cpp">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\MAVLinkConnectionTCP.cpp">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\Threads\MAVLinkConnectionHandlingThread.cpp">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\Threads\MAVLinkConnectionReadingThread.cpp">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\Threads\MAVLinkConnectionWritingThread.cpp">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandStop.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandTakeOff.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandPrintDeviceData.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandKill.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMoveTo.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMoveBy.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission1.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission5.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\EXSVehicle.cpp">
+      <Filter>Sources\Vehicles\EXSVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandArm.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandGuided.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandLand.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveBy.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandTakeOff.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommand.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandCollection.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Commands\EXSVehicleCommandArm.cpp">
+      <Filter>Sources\Vehicles\EXSVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Commands\EXSVehicleCommandDisarm.cpp">
+      <Filter>Sources\Vehicles\EXSVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Commands\EXSVehicleCommandGuided.cpp">
+      <Filter>Sources\Vehicles\EXSVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Commands\EXSVehicleCommandLand.cpp">
+      <Filter>Sources\Vehicles\EXSVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Commands\EXSVehicleCommandTakeOff.cpp">
+      <Filter>Sources\Vehicles\EXSVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandDisarm.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFact.cpp">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFactCollection.cpp">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFactCommand.cpp">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFactCopterAltitude.cpp">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFactCopterState.cpp">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFactFlightMode.cpp">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFactLandedState.cpp">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveForward.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveRightward.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveUpward.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission6.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveBackward.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveLeftward.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveDownward.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandRotateByCCW.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandRotateByCW.cpp">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission8.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\Request.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestArm.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestBeep.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestChangeMode.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestCommand.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestDisarm.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceData.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGuided.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestLand.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestMoveBy.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestMoveTo.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestStabilize.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestTakeOff.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestRTL.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestPosHold.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestAltHold.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandAltHold.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandPosHold.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandRTL.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestRebootFlightController.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandRebootFlightController.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission2.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission3.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission7.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission4.cpp">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\SharedMemory.cpp">
+      <Filter>Sources\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\CTHVehicle\CTHVehicle.cpp">
+      <Filter>Sources\Vehicles\CTHVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\RTLVehicle\RTLVehicle.cpp">
+      <Filter>Sources\Vehicles\RTLVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\DeviceData\DeviceDataExtendedSystemState.cpp">
+      <Filter>Sources\MavlinkAbstraction\Responses\DeviceData</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\DeviceData\DeviceDataHeartbeat.cpp">
+      <Filter>Sources\MavlinkAbstraction\Responses\DeviceData</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataAttitude.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataExtendedSystemState.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataGlobalPosition.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataGPSGlobalOrigin.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataBase.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataAttitude.cpp">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataExtendedSystemState.cpp">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataGlobalPosition.cpp">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataGPSGlobalOrigin.cpp">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataHeartbeat.cpp">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataLocalPositionNED.cpp">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataBase.cpp">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataHeartbeat.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataLocalPositionNED.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetTimeOfBoot.cpp">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\Connection.h">
+      <Filter>Sources\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\ConnectionAsynchronousOperation.h">
+      <Filter>Sources\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Threading\Thread.h">
+      <Filter>Sources\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Threading\Timer.h">
+      <Filter>Sources\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\Semaphore.h">
+      <Filter>Sources\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Utilities\StringUtil.h">
+      <Filter>Sources\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Utilities\ConversionUtil.h">
+      <Filter>Sources\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Utilities\MathUtil.h">
+      <Filter>Sources\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\SerialPort.h">
+      <Filter>Sources\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\SerialPortAsynchronousOperation.h">
+      <Filter>Sources\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\Socket.h">
+      <Filter>Sources\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\SocketAsynchronousOperation.h">
+      <Filter>Sources\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\TCPSocket.h">
+      <Filter>Sources\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\TCPSocketAsynchronousOperation.h">
+      <Filter>Sources\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\UDPSocket.h">
+      <Filter>Sources\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\UDPSocketAsynchronousOperation.h">
+      <Filter>Sources\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Arguments\ArgumentParser.h">
+      <Filter>Sources\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Arguments\VehicleArgumentParser.h">
+      <Filter>Sources\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Arguments\VehicleArguments.h">
+      <Filter>Sources\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Arguments\Arguments.h">
+      <Filter>Sources\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Arguments\MavlinkAbstractionArguments.h">
+      <Filter>Sources\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Arguments\MavlinkAbstractionArgumentParser.h">
+      <Filter>Sources\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Arguments\MALArgumentParser.h">
+      <Filter>Sources\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Arguments\MALArguments.h">
+      <Filter>Sources\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MavlinkAbstraction.h">
+      <Filter>Sources\MavlinkAbstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Logger\Logger.h">
+      <Filter>Sources\MavlinkAbstraction\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\MAVLinkConnection.h">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\MAVLinkConnectionSerial.h">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Threading\BlockingThread.h">
+      <Filter>Sources\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\Threads\MAVLinkConnectionReadingThread.h">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\Threads\MAVLinkConnectionWritingThread.h">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Threading\ThreadSafeQueue.h">
+      <Filter>Sources\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\C2Handler\C2Handler.h">
+      <Filter>Sources\MavlinkAbstraction\C2Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Threading\BlockingQueueThread.h">
+      <Filter>Sources\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\Threads\MAVLinkConnectionHandlingThread.h">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\MAVLinkConnectionUDP.h">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\MAVLinkConnectionTCP.h">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Vehicle.h">
+      <Filter>Sources\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\CommandVehicle.h">
+      <Filter>Sources\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommand.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandGuided.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Utilities\InputUtil.h">
+      <Filter>Sources\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\Response.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGuided.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseArm.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseDisarm.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandArm.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandDisarm.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandBeep.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseStabilize.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseLand.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandStabilize.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandLand.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandStop.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseTakeOff.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandTakeOff.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseSuccess.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandPrintDeviceData.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandKill.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMoveTo.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseMoveBy.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMoveBy.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission1.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission5.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\EXSVehicle.h">
+      <Filter>Sources\Vehicles\EXSVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommand.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandArm.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandGuided.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandLand.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveBy.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandTakeOff.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandCollection.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Commands\EXSVehicleCommandArm.h">
+      <Filter>Sources\Vehicles\EXSVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Commands\EXSVehicleCommandDisarm.h">
+      <Filter>Sources\Vehicles\EXSVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Commands\EXSVehicleCommandGuided.h">
+      <Filter>Sources\Vehicles\EXSVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Commands\EXSVehicleCommandLand.h">
+      <Filter>Sources\Vehicles\EXSVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Commands\EXSVehicleCommandTakeOff.h">
+      <Filter>Sources\Vehicles\EXSVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandDisarm.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFact.h">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFactCollection.h">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFactCommand.h">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFactCopterAltitude.h">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFactCopterState.h">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFactFlightMode.h">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\EXSVehicle\Facts\EXSFactLandedState.h">
+      <Filter>Sources\Vehicles\EXSVehicle\Facts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveForward.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveRightward.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveUpward.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission6.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseMoveTo.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveBackward.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveLeftward.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandMoveDownward.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandRotateByCW.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\VehicleCommandRotateByCCW.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission8.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseChangeMode.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestTakeOff.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\Request.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestArm.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestBeep.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestChangeMode.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestCommand.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestDisarm.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceData.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGuided.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestLand.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestMoveBy.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestMoveTo.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestStabilize.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestRTL.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestPosHold.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestAltHold.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseRTL.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseAltHold.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponsePosHold.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandAltHold.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandPosHold.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandRTL.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestRebootFlightController.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseRebootFlightController.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandRebootFlightController.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Logger\Logger_Mode.h">
+      <Filter>Sources\MavlinkAbstraction\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLinkConnection\MAVLink_Connection_Type.h">
+      <Filter>Sources\MavlinkAbstraction\MAVLinkConnection</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Commands\Vehicle_Command_Execute_Result.h">
+      <Filter>Sources\Vehicles\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission2.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission3.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission7.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\Commands\TestVehicleCommandMission4.h">
+      <Filter>Sources\Vehicles\TestVehicle\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\IPC\SharedMemory.h">
+      <Filter>Sources\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\Vehicles.h">
+      <Filter>Sources\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\CTHVehicle\CTHVehicle.h">
+      <Filter>Sources\Vehicles\CTHVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\MAVLink.h">
+      <Filter>Sources\MavlinkAbstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\TestVehicle\TestVehicle.h">
+      <Filter>Sources\Vehicles\TestVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\mavlink_types.h">
+      <Filter>Sources\MAVLink</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\protocol.h">
+      <Filter>Sources\MAVLink</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\checksum.h">
+      <Filter>Sources\MAVLink</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\mavlink_conversions.h">
+      <Filter>Sources\MAVLink</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\mavlink_get_info.h">
+      <Filter>Sources\MAVLink</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\mavlink_helpers.h">
+      <Filter>Sources\MAVLink</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\mavlink_sha256.h">
+      <Filter>Sources\MAVLink</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_autopilot_version_request.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_battery2.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_camera_feedback.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_camera_status.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_compassmot_status.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_data16.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_data32.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_data64.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_data96.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_deepstall.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_device_op_read.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_device_op_read_reply.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_device_op_write.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_device_op_write_reply.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_digicam_configure.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_digicam_control.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_efi_status.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_ekf_status_report.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_esc_telemetry_1_to_4.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_esc_telemetry_5_to_8.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_esc_telemetry_9_to_12.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_fence_fetch_point.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_fence_point.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_gimbal_control.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_gimbal_report.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_gimbal_torque_cmd_report.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_gopro_get_request.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_gopro_get_response.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_gopro_heartbeat.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_gopro_set_request.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_gopro_set_response.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_hwstatus.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_led_control.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_limits_status.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_mag_cal_progress.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_mag_cal_report.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_meminfo.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_mount_configure.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_mount_control.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_mount_status.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_pid_tuning.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_radio.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_rally_fetch_point.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_rally_point.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_rangefinder.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_remote_log_block_status.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_remote_log_data_block.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_rpm.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_sensor_offsets.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_set_mag_offsets.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_simstate.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_vision_position_delta.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_wind.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\testsuite.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\version.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\ardupilotmega.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_adap_tuning.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_ahrs.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_ahrs2.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_ahrs3.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_airspeed_autocal.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_aoa_ssa.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ardupilotmega\mavlink_msg_ap_adc.h">
+      <Filter>Sources\MAVLink\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_command_int_stamped.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_command_long_stamped.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_ekf_ext.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_fw_soaring_data.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_gsm_link_status.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_sens_atmos.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_sens_batmon.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_sens_mppt.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_sens_power.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_sens_power_board.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_sensorpod_status.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\testsuite.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\version.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\ASLUAV.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_asl_obctrl.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_aslctrl_data.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_aslctrl_debug.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\ASLUAV\mavlink_msg_asluav_status.h">
+      <Filter>Sources\MAVLink\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\autoquad\mavlink.h">
+      <Filter>Sources\MAVLink\autoquad</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\autoquad\mavlink_msg_aq_esc_telemetry.h">
+      <Filter>Sources\MAVLink\autoquad</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\autoquad\mavlink_msg_aq_telemetry_f.h">
+      <Filter>Sources\MAVLink\autoquad</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\autoquad\testsuite.h">
+      <Filter>Sources\MAVLink\autoquad</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\autoquad\version.h">
+      <Filter>Sources\MAVLink\autoquad</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\autoquad\autoquad.h">
+      <Filter>Sources\MAVLink\autoquad</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_attitude_quaternion_cov.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_attitude_target.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_auth_key.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_autopilot_version.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_battery_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_button_change.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_camera_capture_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_camera_image_captured.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_camera_information.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_camera_settings.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_camera_trigger.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_cellular_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_change_operator_control.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_change_operator_control_ack.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_collision.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_command_ack.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_command_int.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_command_long.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_component_information.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_control_system_state.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_data_stream.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_data_transmission_handshake.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_debug.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_debug_float_array.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_debug_vect.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_distance_sensor.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_encapsulated_data.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_estimator_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_extended_sys_state.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_fence_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_file_transfer_protocol.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_flight_information.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_follow_target.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_global_position_int.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_global_position_int_cov.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_global_vision_position_estimate.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_gps_global_origin.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_gps_inject_data.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_gps_input.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_gps_raw_int.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_gps_rtcm_data.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_gps_rtk.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_gps_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_gps2_raw.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_gps2_rtk.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_heartbeat.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_high_latency.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_high_latency2.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_highres_imu.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_hil_actuator_controls.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_hil_controls.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_hil_gps.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_hil_optical_flow.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_hil_rc_inputs_raw.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_hil_sensor.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_hil_state.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_hil_state_quaternion.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_home_position.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_isbd_link_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_landing_target.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_link_node_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_local_position_ned.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_local_position_ned_cov.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_local_position_ned_system_global_offset.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_log_data.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_log_entry.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_log_erase.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_log_request_data.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_log_request_end.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_log_request_list.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_logging_ack.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_logging_data.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_logging_data_acked.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_manual_control.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_manual_setpoint.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_memory_vect.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_message_interval.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_ack.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_changed.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_clear_all.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_count.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_current.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_item.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_item_int.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_item_reached.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_request.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_request_int.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_request_list.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_request_partial_list.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_set_current.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mission_write_partial_list.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_mount_orientation.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_named_value_float.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_named_value_int.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_nav_controller_output.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_obstacle_distance.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_odometry.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_onboard_computer_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_open_drone_id_authentication.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_open_drone_id_basic_id.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_open_drone_id_location.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_open_drone_id_message_pack.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_open_drone_id_operator_id.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_open_drone_id_self_id.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_open_drone_id_system.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_optical_flow.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_optical_flow_rad.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_orbit_execution_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_param_ext_ack.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_param_ext_request_list.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_param_ext_request_read.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_param_ext_set.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_param_ext_value.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_param_map_rc.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_param_request_list.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_param_request_read.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_param_set.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_param_value.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_ping.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_play_tune.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_play_tune_v2.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_position_target_global_int.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_position_target_local_ned.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_power_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_protocol_version.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_radio_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_raw_imu.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_raw_pressure.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_rc_channels.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_rc_channels_override.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_rc_channels_raw.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_rc_channels_scaled.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_request_data_stream.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_resource_request.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_safety_allowed_area.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_safety_set_allowed_area.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_scaled_imu.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_scaled_imu2.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_scaled_imu3.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_scaled_pressure.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_scaled_pressure2.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_scaled_pressure3.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_serial_control.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_servo_output_raw.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_set_actuator_control_target.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_set_attitude_target.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_set_gps_global_origin.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_set_home_position.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_set_mode.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_set_position_target_global_int.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_set_position_target_local_ned.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_setup_signing.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_sim_state.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_smart_battery_info.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_smart_battery_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_statustext.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_storage_information.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_supported_tunes.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_sys_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_system_time.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_terrain_check.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_terrain_data.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_terrain_report.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_terrain_request.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_time_estimate_to_target.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_timesync.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_trajectory_representation_bezier.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_trajectory_representation_waypoints.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_tunnel.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_uavcan_node_info.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_uavcan_node_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_utm_global_position.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_v2_extension.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_vfr_hud.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_vibration.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_vicon_position_estimate.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_video_stream_information.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_video_stream_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_vision_position_estimate.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_vision_speed_estimate.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_wheel_distance.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_wifi_config_ap.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_wind_cov.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\testsuite.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\version.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\common.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_actuator_control_target.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_actuator_output_status.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_adsb_vehicle.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_ais_vessel.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_altitude.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_att_pos_mocap.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_attitude.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\common\mavlink_msg_attitude_quaternion.h">
+      <Filter>Sources\MAVLink\common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\icarous\mavlink_msg_icarous_kinematic_bands.h">
+      <Filter>Sources\MAVLink\icarous</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\icarous\testsuite.h">
+      <Filter>Sources\MAVLink\icarous</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\icarous\version.h">
+      <Filter>Sources\MAVLink\icarous</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\icarous\icarous.h">
+      <Filter>Sources\MAVLink\icarous</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\icarous\mavlink.h">
+      <Filter>Sources\MAVLink\icarous</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\icarous\mavlink_msg_icarous_heartbeat.h">
+      <Filter>Sources\MAVLink\icarous</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_flexifunction_directory_ack.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_flexifunction_read_req.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_flexifunction_set.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f2_a.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f2_b.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f4.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f5.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f6.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f7.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f8.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f13.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f14.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f15.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f16.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f17.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f18.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f19.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f20.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f21.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_serial_udb_extra_f22.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\testsuite.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\version.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\matrixpilot.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_airspeeds.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_altitudes.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_flexifunction_buffer_function.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_flexifunction_buffer_function_ack.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_flexifunction_command.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_flexifunction_command_ack.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\matrixpilot\mavlink_msg_flexifunction_directory.h">
+      <Filter>Sources\MAVLink\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\minimal\minimal.h">
+      <Filter>Sources\MAVLink\minimal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\minimal\testsuite.h">
+      <Filter>Sources\MAVLink\minimal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\minimal\version.h">
+      <Filter>Sources\MAVLink\minimal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\minimal\mavlink.h">
+      <Filter>Sources\MAVLink\minimal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\minimal\mavlink_msg_heartbeat.h">
+      <Filter>Sources\MAVLink\minimal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\minimal\mavlink_msg_protocol_version.h">
+      <Filter>Sources\MAVLink\minimal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_mid_lvl_cmds.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_novatel_diag.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_ptz_status.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_sensor_bias.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_sensor_diag.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_slugs_camera_order.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_slugs_configuration_camera.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_slugs_mobile_location.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_slugs_navigation.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_status_gps.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_uav_status.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_volt_sensor.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\slugs.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\testsuite.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\version.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_boot.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_control_surface.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_cpu_load.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_ctrl_srfc_pt.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_data_log.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_diagnostic.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_gps_date_time.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\slugs\mavlink_msg_isr_location.h">
+      <Filter>Sources\MAVLink\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\standard\testsuite.h">
+      <Filter>Sources\MAVLink\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\standard\version.h">
+      <Filter>Sources\MAVLink\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\standard\mavlink.h">
+      <Filter>Sources\MAVLink\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\standard\standard.h">
+      <Filter>Sources\MAVLink\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\test\testsuite.h">
+      <Filter>Sources\MAVLink\test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\test\version.h">
+      <Filter>Sources\MAVLink\test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\test\mavlink.h">
+      <Filter>Sources\MAVLink\test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\test\mavlink_msg_test_types.h">
+      <Filter>Sources\MAVLink\test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\test\test.h">
+      <Filter>Sources\MAVLink\test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\uAvionix\uAvionix.h">
+      <Filter>Sources\MAVLink\uAvionix</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\uAvionix\version.h">
+      <Filter>Sources\MAVLink\uAvionix</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\uAvionix\mavlink.h">
+      <Filter>Sources\MAVLink\uAvionix</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\uAvionix\mavlink_msg_uavionix_adsb_out_cfg.h">
+      <Filter>Sources\MAVLink\uAvionix</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\uAvionix\mavlink_msg_uavionix_adsb_out_dynamic.h">
+      <Filter>Sources\MAVLink\uAvionix</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\uAvionix\mavlink_msg_uavionix_adsb_transceiver_health_report.h">
+      <Filter>Sources\MAVLink\uAvionix</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MAVLink\uAvionix\testsuite.h">
+      <Filter>Sources\MAVLink\uAvionix</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Vehicles\RTLVehicle\RTLVehicle.h">
+      <Filter>Sources\Vehicles\RTLVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataExtendedSystemState.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataHeartbeat.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataAttitude.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataGlobalPosition.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataGPSGlobalOrigin.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataLocalPositionNED.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\DeviceData\DeviceDataAttitude.h">
+      <Filter>Sources\MavlinkAbstraction\Responses\DeviceData</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\DeviceData\DeviceDataExtendedSystemState.h">
+      <Filter>Sources\MavlinkAbstraction\Responses\DeviceData</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\DeviceData\DeviceDataGlobalPosition.h">
+      <Filter>Sources\MavlinkAbstraction\Responses\DeviceData</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\DeviceData\DeviceDataGPSGlobalOrigin.h">
+      <Filter>Sources\MavlinkAbstraction\Responses\DeviceData</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\DeviceData\DeviceDataHeartbeat.h">
+      <Filter>Sources\MavlinkAbstraction\Responses\DeviceData</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\DeviceData\DeviceDataLocalPositionNED.h">
+      <Filter>Sources\MavlinkAbstraction\Responses\DeviceData</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataAttitude.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataExtendedSystemState.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataGlobalPosition.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataGPSGlobalOrigin.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataHeartbeat.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataLocalPositionNED.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetDeviceDataBase.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetDeviceDataBase.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Requests\RequestGetTimeOfBoot.h">
+      <Filter>Sources\MavlinkAbstraction\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\MavlinkAbstraction\Responses\ResponseGetTimeOfBoot.h">
+      <Filter>Sources\MavlinkAbstraction\Responses</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

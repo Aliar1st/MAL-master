@@ -1,0 +1,25 @@
+# Set the default behavior
+* text=auto
+
+# Check out as binaries
+*.pptx binary
+*.docx binary
+*.xlsx binary
+
+# Check out with crlf (Windows) line endings
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.filters text eol=crlf
+*.vcxitems text eol=crlf
+*.h text eol=crlf
+*.hpp text eol=crlf
+*.c text eol=crlf
+*.cpp text eol=crlf
+*.py text eol=crlf
+*.xml text eol=crlf
+*.ufx text eol=crlf
+
+# Check out with lf (UNIX) line endings
+*.sh text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf

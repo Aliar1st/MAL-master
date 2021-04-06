@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{470260b3-0980-4620-99c6-ef2d82272ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tests">
+      <UniqueIdentifier>{b32d64cf-c88d-48ff-baa9-ce1d2f36a3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tests\Utilities">
+      <UniqueIdentifier>{9afe6eac-0b70-4202-877c-e6f708a4d04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tests\IPC">
+      <UniqueIdentifier>{fce8f8fa-8843-4d29-98e3-864ae3c1eaa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tests\Threading">
+      <UniqueIdentifier>{215bb0af-0cf0-4c95-948d-48e8c370c293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Tests\Arguments">
+      <UniqueIdentifier>{f9c8a1ae-5b15-49b8-81b8-00a7f2802188}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Utilities\ConversionUtil_Test.cpp">
+      <Filter>Sources\Tests\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Utilities\MathUtil_Test.cpp">
+      <Filter>Sources\Tests\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Utilities\StringUtil_Test.cpp">
+      <Filter>Sources\Tests\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\Semaphore_Test.cpp">
+      <Filter>Sources\Tests\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\SerialPort_Test.cpp">
+      <Filter>Sources\Tests\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\TCPSocket_Test.cpp">
+      <Filter>Sources\Tests\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\UDPSocket_Test.cpp">
+      <Filter>Sources\Tests\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Threading\Thread_Test.cpp">
+      <Filter>Sources\Tests\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Threading\Timer_Test.cpp">
+      <Filter>Sources\Tests\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Arguments\VehicleArgumentParser_Test.cpp">
+      <Filter>Sources\Tests\Arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Arguments\MavlinkAbstractionArgumentParser_Test.cpp">
+      <Filter>Sources\Tests\Arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Arguments\ArgumentParser_Test.cpp">
+      <Filter>Sources\Tests\Arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\Socket_Test.cpp">
+      <Filter>Sources\Tests\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\Connection_Test.cpp">
+      <Filter>Sources\Tests\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Threading\BlockingThread_Test.cpp">
+      <Filter>Sources\Tests\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\SharedMemory_Test.cpp">
+      <Filter>Sources\Tests\IPC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Arguments\ArgumentParser_Test.h">
+      <Filter>Sources\Tests\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\Connection_Test.h">
+      <Filter>Sources\Tests\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\Socket_Test.h">
+      <Filter>Sources\Tests\IPC</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

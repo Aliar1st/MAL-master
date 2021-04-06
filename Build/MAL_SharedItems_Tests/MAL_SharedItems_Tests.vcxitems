@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{961396cd-5733-4973-88c1-f8cd2e0552b8}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Arguments\ArgumentParser_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Arguments\MavlinkAbstractionArgumentParser_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Arguments\VehicleArgumentParser_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\Connection_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\Semaphore_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\SerialPort_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\SharedMemory_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\Socket_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\TCPSocket_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\UDPSocket_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Threading\BlockingThread_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Threading\Thread_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Threading\Timer_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Utilities\ConversionUtil_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Utilities\MathUtil_Test.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Utilities\StringUtil_Test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\Arguments\ArgumentParser_Test.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\Connection_Test.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Sources\Tests\IPC\Socket_Test.h" />
+  </ItemGroup>
+</Project>
